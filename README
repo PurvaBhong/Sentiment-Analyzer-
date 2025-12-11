@@ -1,10 +1,12 @@
-📊 Sentiment Analyzer using DistilBERT
+📊 Sentiment Analyzer using DistilBERT and Gradio
 A web-based sentiment analysis tool built with Python, Gradio, Hugging Face Transformers, and Matplotlib.
-Users can upload an Excel file (.xls/.xlsx) containing reviews, and the app will:
 
-Classify each review as Positive or Negative
-Display results in a tabular format
-Generate a Pie Chart of overall sentiment distribution
+DEPLOYMENT LINK - https://purvabhong01-sentimentanalyzer.hf.space/
+
+Users can upload an Excel file (.xls/.xlsx) containing reviews, and the app will:
+1. Classify each review as Positive or Negative
+2. Display results in a tabular format
+3. Generate a Pie Chart of overall sentiment distribution
 
 🚀 Features
 ✔️ Upload Excel files with customer reviews
@@ -15,10 +17,20 @@ Generate a Pie Chart of overall sentiment distribution
 ✔️ Lightweight & fast inference
 
 🧠 Tech Stack
-Component- Technology
-UI- Gradio
-NLP Model -	DistilBERT (HuggingFace Transformers)
-Backend - 	Python
-Visualization -	Matplotlib
-File Handling	- Pandas
+  Component- Technology
+  UI- Gradio
+  NLP Model -	DistilBERT (HuggingFace Transformers)
+  Backend - 	Python
+  Visualization -	Matplotlib
+  File Handling	- Pandas
+
+📊 Example Output
+✔ Table of all reviews with sentiments
+✔ Pie chart of sentiment distribution
+
+🤝 Contributing
+Pull requests and suggestions are welcome!
+If you’d like to contribute new features — such as a star-rating predictor, improved visualizations, CSV support, or even real-time sentiment analysis applications — feel free to open an issue or submit a PR.
+
+We encourage contributions that enhance functionality, improve performance, or extend this project into real-time or production-ready use cases.
 
